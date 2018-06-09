@@ -1,0 +1,1 @@
+'hello, world' varwhiletrue01 8 012 $0 $12aE %01100101 $123food 'a' '"a"' ''
