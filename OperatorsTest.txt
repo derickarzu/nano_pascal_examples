@@ -1,1 +1,26 @@
+// Simple test for lexer
+
 [ ] , ; ( ) = - + * < > <> <= >= := : << >>
+
+(*
+Expected Result:
+Symbol: OpenBra '['
+Symbol: CloseBra ']'
+Symbol: Comma ','
+Symbol: Semicolon ';'
+Symbol: OpenPar '('
+Symbol: ClosePar ')'
+Symbol: OpEqual '='
+Symbol: OpSub '-'
+Symbol: OpAdd '+'
+Symbol: OpMul '*'
+Symbol: OpLessThan '<'
+Symbol: OpGreaterThan '>'
+Symbol: OpNotEqual '<>'
+Symbol: OpLessThanOrEqual '<='
+Symbol: OpGreaterThanOrEqual '>='
+Symbol: Assign ':='
+Symbol: Colon ':'
+Symbol: OpLeftShift '<<'
+Symbol: OpRightShift '>>'
+*)

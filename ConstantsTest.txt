@@ -1,1 +1,20 @@
-'hello, world' varwhiletrue01 8 012 $0 $12aE %01100101 $123food 'a' '"a"' ''
+// Simple test for lexer
+
+'hello, world' varwhiletrue01 8 012 $0 $12aE %01100101 $123food 'a' '"a"' '
+'
+
+(*
+Expected Result:
+Symbol: StringConstant 'hello, world'
+Symbol: ID 'varwhiletrue01'
+Symbol: IntConstantDec '8'
+Symbol: IntConstantDec '012'
+Symbol: IntConstantHex '0'
+Symbol: IntConstantHex '12aE'
+Symbol: IntConstantBin '01100101'
+Symbol: IntConstantHex '123f'
+Symbol: ID 'ood'
+Symbol: CharConstant 'a'
+Symbol: StringConstant ''a''
+Missing closing ' in string constant
+*)
