@@ -1,3 +1,2 @@
-program var array of integer boolean char not and or xor shl shr div mod begin end break if then else while repeat until for do write writeln to
-pROgRAm vAR ARRAy Of integeR bOOleAn chAR nOt And OR xOR shl shR div mOd begin end bReAk if then else while RepeAt until fOR dO wRite wRiteln tO
-progrm vr rry of integer oolen chr not nd or xor shl shr div mod egin end rek if then else while repet until for do write writeln to
+program var array of integer boolean char not and or xor shl shr div mod begin end end. break if then else while repeat until for do write writeln to
+pROgRAm vAR ARRAy Of intEgER bOOlEAn chAR nOt And OR xOR shl shR div mOd bEgin End End. bREAk if thEn ElsE whilE REpEAt until fOR dO wRitE wRitEln tO
