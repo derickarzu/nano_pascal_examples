@@ -1,0 +1,7 @@
+//_This_is_a_comment
+this_is_not_a_comment
+(*_This_is_a_comment_*)
+this_is_not_a_comment
+{_this_is_a_comment_}
+this_is_not_a_comment
+{_this_is_a_comment_
