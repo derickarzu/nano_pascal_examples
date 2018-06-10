@@ -1,6 +1,6 @@
 // Simple test for lexer
 
-[ ] , ; ( ) = - + * < > <> <= >= := : << >>
+[ ] , ; ( ) = - + * < > <> <= >= := : << >> ..
 
 (*
 Expected Result:
@@ -23,4 +23,5 @@ Symbol: Assign ':='
 Symbol: Colon ':'
 Symbol: OpLeftShift '<<'
 Symbol: OpRightShift '>>'
+Symbol: DotDot '..'
 *)
