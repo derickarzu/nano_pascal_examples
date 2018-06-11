@@ -1,7 +1,7 @@
 // Simple test for lexer
 
-program var array of integer boolean char not and or xor shl shr div mod begin end end. break if then else while repeat until for do write writeln to function procedure read true false
-pROgRAm vAR ARRAy Of intEgER bOOlEAn chAR nOt And OR xOR shl shR div mOd bEgin End End. bREAk if thEn ElsE whilE REpEAt until fOR dO wRitE wRitEln tO FuNction procEdure rEaD trUe FalsE
+program var array of integer boolean char not and or xor shl shr div mod begin end end. break if then else while repeat until for do write writeln to function procedure read true false continue
+pROgRAm vAR ARRAy Of intEgER bOOlEAn chAR nOt And OR xOR shl shR div mOd bEgin End End. bREAk if thEn ElsE whilE REpEAt until fOR dO wRitE wRitEln tO FuNction procEdure rEaD trUe FalsE ConTinUE
 
 (*
 Expected Result:
@@ -40,6 +40,7 @@ Symbol: Procedure 'procedure'
 Symbol: Read 'read'
 Symbol: True 'true'
 Symbol: False 'false'
+Symbol: Continue 'continue'
 Symbol: Program 'pROgRAm'
 Symbol: Var 'vAR'
 Symbol: Array 'ARRAy'
@@ -75,4 +76,5 @@ Symbol: Procedure 'procEdure'
 Symbol: Read 'rEaD'
 Symbol: True 'trUe'
 Symbol: False 'FalsE'
+Symbol: Continue 'ConTinUE'
 *)
