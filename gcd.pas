@@ -14,7 +14,7 @@ var
 function gcd(a: Integer; b: Integer): Integer;
 begin
     if b = 0 then
-        gcd := a
+        gcd := a;
     else
         gcd := gcd(b, a mod b);
 end;
